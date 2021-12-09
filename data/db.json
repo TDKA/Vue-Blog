@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Best Programming Books",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices leo dolor, sit amet consequat eros commodo vel. Curabitur eu est magna. Maecenas ac placerat magna, ac tincidunt sem. In mollis augue in nisl ornare porttitor. Proin et erat a nisi imperdiet rutrum. Pellentesque malesuada tempus est, eu sagittis odio aliquam at. Integer semper pulvinar finibus. Ut pellentesque blandit suscipit. ",
+      "tags": [
+        "books",
+        "programming",
+        "coding"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "My top 5 CSS tips",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices leo dolor, sit amet consequat eros commodo vel. Curabitur eu est magna. Maecenas ac placerat magna, ac tincidunt sem. In mollis augue in nisl ornare porttitor. Proin et erat a nisi imperdiet rutrum. Pellentesque malesuada tempus est, eu sagittis odio aliquam at. Integer semper pulvinar finibus. Ut pellentesque blandit suscipit. ",
+      "tags": [
+        "css",
+        "programming",
+        "coding",
+        "style"
+      ]
+    },
+    {
+      "title": "qsdsqdqsd",
+      "body": "qsdsqd",
+      "tags": [
+        "qsdsd"
+      ],
+      "id": 3
+    }
+  ]
+}

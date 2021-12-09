@@ -1,0 +1,46 @@
+<template>
+  <div class="post">
+    <router-link :to="{ name: 'Details', params: { id: post.id } }">
+      <h3>{{ post.title }}</h3>
+    </router-link>
+
+    <p>{{ snippetText }}</p>
+    <span v-for="tag in post.tags" :key="tag" class="tags"> | #{{ tag }}</span>
+  </div>
+</template>
+
+<script>
+import { computed } from "@vue/reactivity";
+
+export default {
+  props: ["post"],
+  setup(props) {
+    const snippetText = computed(() => {
+      return props.post.body.substring(0, 100) + "......";
+    });
+
+    return { snippetText };
+  },
+};
+</script>
+
+<style>
+div {
+  margin-bottom: 30px;
+}
+.post {
+  background: #eee;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+.post h3 {
+  color: orangered;
+}
+
+.tags {
+  color: rgb(252, 195, 90);
+  font-style: italic;
+  font-weight: bold;
+}
+</style>
